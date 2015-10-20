@@ -1,17 +1,57 @@
-body{
-	background: url("../images/main-bg.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-
+*{
+margin: 0;
+padding: 0;
 }
 
+body{
+background: url("../images/main-bg.jpg");
+background-attachment: fixed;
+background-size: cover;
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+#pageAlign{
+margin: 0 auto;
+border: solid red 1px;
+width: 1000px;
+height: auto;
+}
+
+#infoBar{
+height: 42px;
+background: #363f48;
+}
+
+<<<<<<< HEAD
 #content {
     margin: 0 auto;
     width: 1200px;
     height: 550px;
     border: 1px solid black;
     margin-top: none;
+=======
+.infoLeft{
+float: left;
+border: solid green 1px;
+padding: 9px 0 9px 0;
+}
+
+.vk_link{
+float: left;
+display: block;
+height: 24px;
+width: 25px;
+background: url("../images/sprites_link.png");
+margin-right: 6px;
+}
+
+.g_link{
+float: right;
+display: block;
+height: 24px;
+width: 25px;
+background: url("../images/sprites_link.png") -25px;
+>>>>>>> origin/master
 }
