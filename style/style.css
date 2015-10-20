@@ -12,6 +12,13 @@ webkit-background-size: cover;
 -o-background-size: cover;
 }
 
+#main{
+width: 1200px;
+height: auto;
+margin: 0 auto;
+border: solid blue 1px;
+}
+
 #pageAlign{
 margin: 0 auto;
 border: solid red 1px;
