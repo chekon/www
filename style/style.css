@@ -1,6 +1,7 @@
 *{
 margin: 0;
 padding: 0;
+font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -16,29 +17,26 @@ webkit-background-size: cover;
 width: 1200px;
 height: 550px;
 margin: 0 auto;
-border: solid blue 1px;
+border: solid yellow 1px;
 }
 /*Main Align End*/
 
 /*Info Bar Start*/
 #infoBar{
-border: solid red 1px;
 width: 1200px;
 background: #363f48;
-margin: 0 auto;
+height: auto;
 }
 
 #infoBarAlign{
 height: 42px;
-border: solid yellow 1px;
 margin: 0 auto;
 width: 1000px;
 }
 
 .infoLeft{
 float: left;
-border: solid green 1px;
-padding: 9px 0 9px 0;
+margin: 8px 0 0 0;
 }
 
 .vk_link{
@@ -60,6 +58,49 @@ background: url("../images/sprites_link.png") -25px;
 
 .infoRight{
 float: right;
-border: solid green 1px;
+margin: 8px 0 0 0;
+}
+
+.number{
+float: left;
+}
+
+.callMe{
+float: right;
+border-radius: 4px;
+background-color: rgb(78, 179, 51);
+padding: 3px 19px 3px 19px;
+color: #FFF;
+text-decoration: none;
+font-size: 13px;
+}
+
+.callMe img{
+margin-right: 7px;
+}
+
+.callMe:hover{
+background: #40912b;
+}
+
+.number{
+color: #FFF;
+font-size: 15px;
+margin-right: 22px;
+margin-top: 3px;
 }
 /*Info Bar End*/
+
+/*Main Navigation Start*/
+#nav{
+height: auto;
+background: #FFF;
+}
+
+.navAlign{
+height: 125px;
+margin: 0 auto;
+width: 1000px;
+border: solid black 1px;
+}
+/*Main Navigation End*/
