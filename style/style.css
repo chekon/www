@@ -92,15 +92,57 @@ margin-top: 3px;
 /*Info Bar End*/
 
 /*Main Navigation Start*/
-#nav{
+#headAndNav{
 height: auto;
 background: #FFF;
 }
 
-.navAlign{
+.headAndNavAlign{
 height: 125px;
 margin: 0 auto;
 width: 1000px;
-border: solid black 1px;
 }
+
+.logoLeft{
+background: url("../images/logo.png") no-repeat 1px;
+float: left;
+width: 315px;
+height: 125px;
+}
+
+nav{
+overflow: hidden;
+width: 650px;
+text-align: right;
+float: right;
+height: 125px;
+line-height: 125px; /* не поддерживается Opera Mini [opera.com] */
+}
+
+nav ul{
+list-style: none;
+
+}
+
+nav ul li{
+display: inline
+}
+
+nav ul li a{
+display:inline-block;
+font-size: 16px;
+text-decoration: none;
+
+color: rgb(54, 63, 72);
+font-weight: 400;
+padding: 0 11px 0 11px;
+
+}
+
+nav ul li a:hover{
+color: rgb(78, 179, 51);
+background: #f6f6f6;
+}
+
+
 /*Main Navigation End*/
